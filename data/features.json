@@ -1,0 +1,18 @@
+[
+  {
+    "title": "Trasporti",
+    "description": "Nazionali ed Internazionali",
+    "icon": "fa-solid fa-globe"
+  },
+  {
+    "title": "Impegno",
+    "description": "Puntualità e precisione delle consegne",
+    "icon": "fa-solid fa-truck-fast"
+  },
+  {
+    "title": "Affidabilità",
+    "description": "Da oltre 40 anni al servizio dei nostri clienti!",
+    "icon": "fa-solid fa-handshake",
+    "link": "/about"
+  }
+]

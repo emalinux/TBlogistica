@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Immagini TB Logistica on TB Logistica S.r.l.</title>
+    <link>/products/</link>
+    <description>Recent content in Immagini TB Logistica on TB Logistica S.r.l.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 23 Jun 2020 12:33:45 +1000</lastBuildDate>
+    <atom:link href="/products/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Galleria Fotografica</title>
+      <link>/products/gallery/</link>
+      <pubDate>Tue, 23 Jun 2020 12:33:45 +1000</pubDate>
+      <guid>/products/gallery/</guid>
+      <description>Alcuni scatti relativi ad alcuni momenti della nostra attività.&#xA;1st&#xA;10th&#xA;11th&#xA;12th&#xA;13th&#xA;14th&#xA;15th&#xA;16th&#xA;17th&#xA;18th&#xA;19th&#xA;2nd&#xA;20th&#xA;21st&#xA;22nd&#xA;23rd&#xA;24th&#xA;25th&#xA;26th&#xA;27th&#xA;28th&#xA;3rd&#xA;4th&#xA;5th&#xA;6th&#xA;7th&#xA;8th&#xA;9th</description>
+    </item>
+  </channel>
+</rss>

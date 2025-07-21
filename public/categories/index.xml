@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on TB Logistica S.r.l.</title>
+    <link>/categories/</link>
+    <description>Recent content in Categories on TB Logistica S.r.l.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 11 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Servizi</title>
+      <link>/categories/servizi/</link>
+      <pubDate>Mon, 11 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>/categories/servizi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Trasporti</title>
+      <link>/categories/trasporti/</link>
+      <pubDate>Mon, 11 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>/categories/trasporti/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

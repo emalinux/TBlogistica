@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Trasporti on TB Logistica S.r.l.</title>
+    <link>/categories/trasporti/</link>
+    <description>Recent content in Trasporti on TB Logistica S.r.l.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 11 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/categories/trasporti/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Trasporto animali</title>
+      <link>/blog/trasporto-animali/</link>
+      <pubDate>Mon, 11 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>/blog/trasporto-animali/</guid>
+      <description>&lt;p&gt;La nostra azienda si posiziona come leader indiscusso nel settore del trasporto animali in Piemonte&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Flotta Aziendale</title>
+      <link>/blog/flotta/</link>
+      <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>/blog/flotta/</guid>
+      <description>&lt;p&gt;La nostra flotta dispone di molti mezzi per le vostre esigenze&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Trasporti Movimento terra</title>
+      <link>/blog/movimento-terra/</link>
+      <pubDate>Sun, 10 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>/blog/movimento-terra/</guid>
+      <description>&lt;p&gt;La nostra azienda eccelle nel trasporto di macchinari per movimento terra ed escavazioni in Piemonte&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Trasporti Cisterna</title>
+      <link>/blog/cisterna/</link>
+      <pubDate>Sun, 09 Mar 2014 00:00:00 +0000</pubDate>
+      <guid>/blog/cisterna/</guid>
+      <description>&lt;p&gt;Offriamo una vasta gamma di servizi compresa cisterna per&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

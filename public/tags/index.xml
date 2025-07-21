@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on TB Logistica S.r.l.</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on TB Logistica S.r.l.</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 11 Mar 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Autisti</title>
+      <link>/tags/autisti/</link>
+      <pubDate>Mon, 11 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>/tags/autisti/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Camion</title>
+      <link>/tags/camion/</link>
+      <pubDate>Mon, 11 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>/tags/camion/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Index</title>
+      <link>/tags/index/</link>
+      <pubDate>Mon, 11 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>/tags/index/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Scania</title>
+      <link>/tags/scania/</link>
+      <pubDate>Mon, 11 Mar 2024 00:00:00 +0000</pubDate>
+      <guid>/tags/scania/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>
