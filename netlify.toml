@@ -7,23 +7,47 @@
   HUGO_ENV = "production"
   HUGO_ENABLEGITINFO = "true"
 
-# (Opzionale) www → non-www o viceversa
+# Canonical: www -> non-www
 [[redirects]]
   from = "https://www.tblogisticasrl.net/*"
-  to = "https://tblogisticasrl.net/:splat"
+  to   = "https://tblogisticasrl.net/:splat"
   status = 301
-  force = true
+  force  = true
 
-# (Opzionale) vecchi slug in inglese → nuovi in italiano
+# Vecchi slug -> nuove sezioni
 [[redirects]]
   from = "/contact"
-  to = "/contatti/"
+  to   = "/contatti/"
   status = 301
+  force  = true
+
 [[redirects]]
   from = "/services"
-  to = "/#servizi"
+  to   = "/#servizi"
   status = 301
+  force  = true
+
+# Galleria: qualunque tentativo /galleria o /gallery va all’anchor in home
+[[redirects]]
+  from = "/galleria"
+  to   = "/#galleria"
+  status = 301
+  force  = true
+
+[[redirects]]
+  from = "/galleria/"
+  to   = "/#galleria"
+  status = 301
+  force  = true
+
 [[redirects]]
   from = "/gallery"
-  to = "/#galleria"
+  to   = "/#galleria"
   status = 301
+  force  = true
+
+[[redirects]]
+  from = "/gallery/"
+  to   = "/#galleria"
+  status = 301
+  force  = true
