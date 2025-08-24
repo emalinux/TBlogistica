@@ -1,0 +1,16 @@
+# Hugo build output
+public/
+resources/
+assets/_gen/
+.hugo_build.lock
+
+# Sistema / IDE
+.DS_Store
+Thumbs.db
+*.log
+
+# Node (se mai userai tool front-end)
+node_modules/
+
+# Varie
+hugo_stats.json

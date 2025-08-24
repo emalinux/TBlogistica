@@ -1,0 +1,91 @@
+{{ define "main" }}
+<section class="container contatti">
+  <h1>Contatti</h1>
+
+  <!--  A. Schede recapiti  -->
+  <div class="contatti-grid">
+    <article class="box">
+      <h2>📍 Sede</h2>
+      <p>
+        TB Logistica S.r.l.<br>
+        Via Villafalletto 172 – 1200 (CN) – Italia
+      </p>
+      <p>📧 <a href="mailto:info@tblogisticasrl.it">info@tblogisticasrl.it</a><br>
+         ☎️ <a href="tel:+390171613410">+39 0171 613 410</a><br>
+         📱 +39 345 050 5168
+      </p>
+      <p>PEC: tblogisticasrl@pec.it</p>
+    </article>
+
+    <article class="box">
+      <h2>🕒 Orari</h2>
+      <ul class="hours">
+        <li>Lun–Ven: 08:00–12:30 / 14:00–18:30</li>
+        <li>Sabato: 08:30–12:30</li>
+        <li>Domenica e festivi: chiuso</li>
+      </ul>
+      <p class="muted">Per urgenze fuori orario usa il form: ti richiamiamo.</p>
+    </article>
+
+    <article class="box">
+      <h2>🔎 Dati fiscali</h2>
+      <p>
+        C.F./P.IVA <strong>IT02700550045</strong><br>
+        REA CN — (dati completi su richiesta)
+      </p>
+    </article>
+  </div>
+
+  <!--  B. Mappa  -->
+  <div class="map-wrap">
+    <iframe
+      title="Mappa TB Logistica"
+      loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+      src="https://www.google.com/maps?q=Via%20Villafalletto%20172%20Cuneo&output=embed">
+    </iframe>
+  </div>
+
+  <!--  C. Form contatti  -->
+  <div class="form-wrap">
+    <h2>Scrivici</h2>
+
+    <!-- Sostituisci con la tua endpoint (Formspree / Basin ecc.) -->
+    <form action="https://formspree.io/f/xxxxxxxx" method="POST" class="contact-form" novalidate>
+      <div class="row">
+        <label>
+          Nome e cognome
+          <input type="text" name="name" autocomplete="name" required>
+        </label>
+        <label>
+          Email
+          <input type="email" name="email" autocomplete="email" required>
+        </label>
+      </div>
+
+      <div class="row">
+        <label>
+          Telefono (opzionale)
+          <input type="tel" name="phone" autocomplete="tel">
+        </label>
+        <label>
+          Oggetto
+          <input type="text" name="subject" required>
+        </label>
+      </div>
+
+      <label>
+        Messaggio
+        <textarea name="message" rows="6" required></textarea>
+      </label>
+
+      <!-- Honeypot anti‑spam -->
+      <input type="text" name="_gotcha" class="hp" tabindex="-1" autocomplete="off">
+
+      <!-- Redirect dopo invio (opzionale) -->
+      <input type="hidden" name="_subject" value="Nuovo messaggio dal sito TB Logistica">
+      <button type="submit" class="btn">Invia richiesta</button>
+      <p class="form-note">Inviando accetti il trattamento dei dati ai sensi del GDPR.</p>
+    </form>
+  </div>
+</section>
+{{ end }}

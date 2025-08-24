@@ -1,0 +1,14 @@
+<section id="galleria" class="container">
+  <h2 class="section-title">Galleria Fotografica</h2>
+
+  <div class="grid">
+    {{ range seq 1 30 }}
+      <a href="/img/gallery/{{ . }}.jpg"
+         class="glightbox"
+         data-gallery="tb-gallery"
+         data-title="Foto {{ . }}">
+        <img src="/img/gallery/{{ . }}.jpg" alt="Foto {{ . }}">
+      </a>
+    {{ end }}
+  </div>
+</section>

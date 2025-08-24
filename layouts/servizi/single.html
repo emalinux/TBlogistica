@@ -1,0 +1,17 @@
+{{ define "main" }}
+<section class="container" style="max-width:900px">
+  <article class="service-single">
+    <header style="margin-bottom:1rem">
+      <h1>{{ .Title }}</h1>
+      {{ with .Params.cover }}<img src="{{ . }}" alt="" style="width:100%;height:auto;border-radius:12px;margin:.5rem 0 1rem;">{{ end }}
+      {{ with .Params.summary }}<p class="subtitle">{{ . }}</p>{{ end }}
+    </header>
+    <div class="content">
+      {{ .Content }}
+    </div>
+    <p style="margin-top:1.5rem">
+      <a class="card-cta" href="/contatti/">Richiedi informazioni</a>
+    </p>
+  </article>
+</section>
+{{ end }}

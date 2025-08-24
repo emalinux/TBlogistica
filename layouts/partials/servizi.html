@@ -1,0 +1,21 @@
+<section id="servizi" class="container">
+  <h2 class="section-title">I Nostri Servizi</h2>
+
+  <div class="cards">
+    {{ $servizi := sort (where .Site.RegularPages "Section" "servizi") "Params.weight" }}
+    {{ range $servizi }}
+      <article class="card-riga">
+        {{ with .Params.cover }}
+          <div class="card-img">
+            <img src="{{ . }}" alt="Immagine di {{ $.Title }}">
+          </div>
+        {{ end }}
+        <div class="card-text">
+          <h2>{{ .Title }}</h2>
+          <p>{{ .Params.description | markdownify }}</p>
+          <a href="{{ .RelPermalink }}" class="card-cta">Scopri di più</a>
+        </div>
+      </article>
+    {{ end }}
+  </div>
+</section>
