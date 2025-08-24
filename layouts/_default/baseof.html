@@ -59,6 +59,13 @@
     {{ block "scripts" . }}{{ end }}
 <a href="#" class="back-to-top" aria-label="Torna su">↑</a> 
 <script>
+  (function () {
+    if (location.pathname === '/galleria' || location.pathname === '/galleria/') {
+      location.replace('/#galleria');
+    }
+  })();
+</script>
+<script>
   document.addEventListener("scroll", () => {
     const btn = document.querySelector(".back-to-top");
     if (window.scrollY > 300) {
