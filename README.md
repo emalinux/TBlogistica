@@ -36,11 +36,16 @@ Sito ufficiale di **TB Logistica S.r.l.**, azienda leader nel trasporto di anima
 ---
 
 ## 👨‍💻 Sviluppo
-Per avviare il sito in locale:
 
-```bash
-hugo server
+## 🔧 Deploy
+Per testare in locale:
 
-❤️ Crediti
+bash: 
+hugo server -D
+hugo server -D --disableFastRender 
 
-Realizzato con il cuore da Manuel – Assembler Computer.
+---
+
+## 🤝 Credits
+
+Progetto sviluppato con il ❤️ da [**Manuel – Assembler Computer**](https://www.assemblercomputer.net/).
