@@ -42,10 +42,13 @@ Per testare in locale:
 
 bash: 
 hugo server -D
-hugo server -D --disableFastRender 
 
 ---
 
 ## 🤝 Credits
 
 Progetto sviluppato con il ❤️ da [**Manuel – Assembler Computer**](https://www.assemblercomputer.net/).
+
+---
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/59d9f580-da70-4f7c-bde7-a64193b296bf/deploy-status)](https://app.netlify.com/projects/tblogisticasrl/deploys)
